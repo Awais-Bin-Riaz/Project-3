@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <table cellpadding="5px" cellspacing="0px" align="center">
+        <tr>
+            <td bgcolor="green">Step 1: Accounts</td>
+            <td bgcolor="green">Step 2: Personal Details</td>
+            <td bgcolor="blue">Step 3: Your Review</td>
+        </tr>
+
+    </table> <br>
+    <form style="margin-left: 30%; margin-right: 30%;" action="">
+        <fieldset>
+            <legend>Your Review</legend>
+            <label>How did you hear about us?:
+                <select name="info" >
+                    <option value="Select your option" >
+                        select your option
+                    </option>
+                    <option value="Facebook">
+                        Facebook                    
+                    </option>
+                    <option value="Linkedin">
+                        LinkedIn                    
+                    </option>
+                </select> <br> <br>
+                <label>Would you visit again?:<br />
+                    <input type="radio" name="review" value="yes" />Yes </label> 
+                    <input type="radio" name="review" value="no" />No </label>
+                    <input type="radio" name="review" value="Maybe" />Maybe </label><br><br>
+            <label>Comments:<br /> 
+               <textarea name="Comments" cols="30" rows="4">Enter your comments here..</textarea></label> <br> <br>
+            <label>Documents:
+        <input type="file" name="submit">
+               </label><br><br>
+
+               <label >
+                   <input type="checkbox" checked='checked'> sign me up for email updates
+               </label> <br><br>
+            <a href="step-2.html">
+                <img src="images/back.png" alt="" width="130" height="35">
+            </a>
+            <a href="submit.html">
+                <img src="images/submit.png" alt="" width="130" height="35">
+            </a>
+        </fieldset>
+    </form>
+</body>
+
+</html>
